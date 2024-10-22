@@ -38,7 +38,7 @@ You can install Flask via pip by running the following command in your terminal 
 pip install flask
 
 ```
-3. Running the Server
+## 3. Running the Server
 
 To run the Flask server, navigate to the folder where app.py is located and use this command:
 
