@@ -19,27 +19,16 @@ Follow these steps to install the required dependencies and run the Flask server
 
 1. Clone the Project or Create the File
 
-If you are working with a project, clone the repository or create a new directory and add the file app.py:
-
 ``` bash
 # install dependencies
-npm install
+git clone https://github.com/Arash-Ghandi/Python-flask-api-basic.git
 
 ```
 ``` bash
 # install dependencies
-git clone https://github.com/your-repo/flask-server.git
+cd Python-flask-api-basic
 
 ```
-``` bash
-# install dependencies
-cd flask-server
-
-```
-
-
-
-Or manually create a file app.py in a new directory.
 
 2. Install Flask
 
