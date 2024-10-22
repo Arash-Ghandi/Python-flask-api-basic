@@ -1,4 +1,4 @@
-Flask Server Setup
+# Flask Server Setup
 
 This guide explains how to set up and run a simple Flask-based server.
 
@@ -13,24 +13,24 @@ Pip: Python's package installer should be installed with Python.
 Flask: Flask is the micro web framework used for this project.
 
 
-Installation
+## Installation
 
 Follow these steps to install the required dependencies and run the Flask server.
 
-1. Clone the Project or Create the File
+## 1. Clone the Project or Create the File
 
 ``` bash
-# install dependencies
+
 git clone https://github.com/Arash-Ghandi/Python-flask-api-basic.git
 
 ```
 ``` bash
-# install dependencies
+
 cd Python-flask-api-basic
 
 ```
 
-2. Install Flask
+## 2. Install Flask
 
 You can install Flask via pip by running the following command in your terminal or command prompt:
 
@@ -52,14 +52,14 @@ After running the command, you should see an output similar to this:
 
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-4. Accessing the Server
+## 4. Accessing the Server
 
 Open your browser and go to the following address:
 
 http://127.0.0.1:5000/
 
 
-Customization
+## Customization
 
 To change the server’s behavior, you can edit the app.py file and modify the route functions.
 
