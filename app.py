@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,request
-import math
 from flask_cors import CORS
+import math
 
 app = Flask(__name__)
 CORS(app)
@@ -44,6 +44,14 @@ def GetProducts():
     }
 
     return jsonify(data)
+    
+@app.route('/products/GetProduct/<int:id>', methods=['GET'])
+def GetProduct(id):
+    product = [item for item in GetItems() if item['id'] == id]
+    if len(product) > 0:
+        product = product[0]
+    
+    return jsonify(product)
     
 
 def GetItems():
