@@ -1,6 +1,7 @@
 from flask import Flask,jsonify,request
 from flask_cors import CORS
 import math
+import random
 
 app = Flask(__name__)
 CORS(app)
@@ -53,6 +54,11 @@ def GetProduct(id):
     
     return jsonify(product)
     
+@app.route('/products/SuggestedProducts', methods=['GET'])
+def GetSuggestProducts():
+    suggestedItems = random.sample(GetItems(), 4)
+    
+    return jsonify(suggestedItems)
 
 def GetItems():
     data = [
